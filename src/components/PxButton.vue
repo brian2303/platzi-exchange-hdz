@@ -9,11 +9,24 @@
            py-2 px-2 
            border border-green-500 hover:border-transparent rounded"
   >
-    <slot></slot>
+    <beat-loader
+      :loading="isLoading"
+      :color="'#68d391'"
+      :size="8"
+    ></beat-loader>
+    <div v-show="!isLoading">
+      <slot />
+    </div>
   </button>
 </template>
 <script>
 export default {
+  props: {
+    isLoading: {
+      type: Boolean,
+      default: false
+    }
+  },
   methods: {
     customClick() {
       this.$emit("custom-click");

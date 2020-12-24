@@ -5,7 +5,7 @@ import router from "@/router";
 import { dollarFilter, percentFilter } from "@/filters";
 import Chartkick from "vue-chartkick";
 import Chart from "chart.js";
-import { VueSpinners } from "@saeris/vue-spinners"
+import { VueSpinners } from "@saeris/vue-spinners";
 
 Vue.use(Chartkick.use(Chart));
 Vue.use(VueSpinners);
