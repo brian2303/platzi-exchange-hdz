@@ -1,24 +1,3 @@
-# platzi-exchange
+# platzi-exchange-hdz
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Curso basico de vue js realizando un proyecto para la visualización del valor de las diferentes criptos del mercado
